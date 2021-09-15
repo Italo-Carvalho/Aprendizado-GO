@@ -6,6 +6,12 @@ import (
 	"reflect"
 )
 
+/*
+int64 = 8 bytes
+int32 = 4 bytes
+int = 8/4 bytes dependendo da sua arquitetura
+array = um conjunto de dados do mesmo tipo com um tamanho fixo
+*/
 func main() {
 	//números inteiros
 	fmt.Println(1, 2, 1000)

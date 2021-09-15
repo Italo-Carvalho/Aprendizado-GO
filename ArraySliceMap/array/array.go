@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+Ao usar o array em uma função é realizada
+uma cópia para outro endereço de mémoria
+*/
 func main() {
 	// homogênea (mesmo tipo) e estática (fixo)
 	var notas [3]float64
